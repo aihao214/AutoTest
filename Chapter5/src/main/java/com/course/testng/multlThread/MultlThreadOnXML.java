@@ -1,4 +1,4 @@
-package multlThread;
+package com.course.testng.multlThread;
 
 import org.testng.annotations.Test;
 
@@ -11,13 +11,16 @@ public class MultlThreadOnXML {
     @Test
     public void test1(){
         System.out.printf("Thread Id: %s%n",Thread.currentThread().getId());
+        System.out.println("这是test11111");
     }
     @Test
     public void test2(){
         System.out.printf("Thread Id: %s%n",Thread.currentThread().getId());
+        System.out.println("这是test22222");
     }
     @Test
     public void test3(){
         System.out.printf("Thread Id: %s%n",Thread.currentThread().getId());
+        System.out.println("这是test33333");
     }
 }
